@@ -9,10 +9,10 @@
 
 ### **About Me**
 - 🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
-- 🌱 I’m currently learning **Vue.js and Shopify API integrations**  
+- 🌱 I’m currently learning **React.js**  
 - 👯 I’m looking to collaborate on **Open-Source Laravel projects**  
-- 💬 Ask me about **Laravel, RESTful APIs, and Backend Development**  
-- 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
+- 💬 Ask me about **Laravel, WordPress, Shopify and Backend Development**  
+- 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmednadeemryyk19@gmail.com)  
 - ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
 
 </td>
