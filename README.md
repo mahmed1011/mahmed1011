@@ -1,9 +1,11 @@
 # Hi 👋, I'm Ahmed  
 **Basic Backend Developer**
 
-![GIF](https://camo.githubusercontent.com/cd878ec5a6b9314e5d2862b8f5f6e934ef657572f93e650c569aa3499937eebd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4650626e53687131683149533546517950442f67697068792e676966)
-
 ---
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### **About Me**
 - 🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
@@ -12,6 +14,15 @@
 - 💬 Ask me about **Laravel, RESTful APIs, and Backend Development**  
 - 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
 - ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
+
+</td>
+<td width="50%" valign="top" align="center">
+
+![GIF](https://camo.githubusercontent.com/cd878ec5a6b9314e5d2862b8f5f6e934ef657572f93e650c569aa3499937eebd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4650626e53687131683149533546517950442f67697068792e676966)
+
+</td>
+</tr>
+</table>
 
 ---
 
