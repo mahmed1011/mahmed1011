@@ -1,43 +1,43 @@
-<div align="center">
-  
-# Hi 👋, I'm Ahmed  
-**Basic Backend Developer**  
+<h1 align="center">Hi 👋, I'm Muhammad Ahmed</h1>
 
----
+<p align="center">
+  <img src="https://camo.githubusercontent.com/cd878ec5a6b9314e5d2862b8f5f6e934ef657572f93e650c569aa3499937eebd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4650626e53687131683149533546517950442f67697068792e676966" alt="GIF" width="400"/>
+</p>
 
-![Typing Effect](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=702F7E&background=FFFFFF00&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Ahmed;Basic+Backend+Developer)
+<h2 align="center">
+  <span>
+    <p align="center">
+      <span id="animated-text"></span>
+    </p>
+  </span>
+</h2>
+
+<p align="center">I'm a passionate backend developer from Pakistan.</p>
 
 ---
 
 ### **About Me**
-- 🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
-- 🌱 I’m currently learning **Vue.js and Shopify API integrations**  
-- 👯 I’m looking to collaborate on **Open-Source Laravel projects**  
-- 💬 Ask me about **Laravel, RESTful APIs, and Backend Development**  
-- 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
-- ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
+<p align="center">
+  🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
+  🌱 I’m currently learning **Vue.js and Shopify API integrations**  
+  👯 I’m looking to collaborate on **Open-Source Laravel projects**  
+  💬 Ask me about **Laravel, RESTful APIs, and Backend Development**  
+  📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
+  ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
+</p>
 
 ---
 
 ### **Languages and Tools**
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="Laravel" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain.svg" alt="Vue.js" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" alt="MySQL" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="80" height="80"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="Git" width="80" height="80"/>
-</p>
-
----
-
-### **GitHub Stats**
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mahmed1011&show_icons=true&theme=radical" alt="Ahmed's GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahmed1011&layout=compact&theme=radical" alt="Top Languages"/>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel"/>
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white" alt="WordPress"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
 </p>
 
 ---
@@ -68,4 +68,49 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmed1011&theme=radical" alt="GitHub Streak"/>
   <img src="https://activity-graph.herokuapp.com/graph?username=mahmed1011&theme=radical" alt="GitHub Activity Graph"/>
 </p>
-</div>
+
+---
+
+<script>
+const texts = [
+  "I'm a Web Designer.",
+  "I'm a Laravel Developer.",
+  "I'm a WordPress Developer.",
+  "I'm a Shopify Developer.",
+  "I'm a Freelancer."
+];
+let index = 0;
+const textElement = document.getElementById("animated-text");
+
+function typeWriter() {
+  let text = texts[index];
+  let typeIndex = 0;
+
+  const typing = setInterval(() => {
+    if (typeIndex < text.length) {
+      textElement.innerHTML += text[typeIndex];
+      typeIndex++;
+    } else {
+      clearInterval(typing);
+      setTimeout(() => deleteText(text), 1500);
+    }
+  }, 100);
+}
+
+function deleteText(text) {
+  let deleteIndex = text.length;
+
+  const deleting = setInterval(() => {
+    if (deleteIndex > 0) {
+      textElement.innerHTML = text.substring(0, deleteIndex - 1);
+      deleteIndex--;
+    } else {
+      clearInterval(deleting);
+      index = (index + 1) % texts.length;
+      setTimeout(typeWriter, 500);
+    }
+  }, 50);
+}
+
+setTimeout(typeWriter, 1000);
+</script>
