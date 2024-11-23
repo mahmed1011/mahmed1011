@@ -1,11 +1,13 @@
+<div align="center">
+  
 # Hi 👋, I'm Ahmed  
-**Basic Backend Developer**
+**Basic Backend Developer**  
 
 ---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+![Typing Effect](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=702F7E&background=FFFFFF00&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Ahmed;Basic+Backend+Developer)
+
+---
 
 ### **About Me**
 - 🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
@@ -15,27 +17,19 @@
 - 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
 - ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
 
-</td>
-<td width="50%" valign="top" align="center">
-
-![GIF](https://camo.githubusercontent.com/cd878ec5a6b9314e5d2862b8f5f6e934ef657572f93e650c569aa3499937eebd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4650626e53687131683149533546517950442f67697068792e676966)
-
-</td>
-</tr>
-</table>
-
 ---
 
 ### **Languages and Tools**
-<p align="left">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white" alt="WordPress"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman"/>
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" alt="Laravel" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain.svg" alt="Vue.js" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" alt="MySQL" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="80" height="80"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="Git" width="80" height="80"/>
 </p>
 
 ---
@@ -49,7 +43,7 @@
 ---
 
 ### **Connect with Me**
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/mahmed1011/?originalSubdomain=pk" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -74,3 +68,4 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmed1011&theme=radical" alt="GitHub Streak"/>
   <img src="https://activity-graph.herokuapp.com/graph?username=mahmed1011&theme=radical" alt="GitHub Activity Graph"/>
 </p>
+</div>
