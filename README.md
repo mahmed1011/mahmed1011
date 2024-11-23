@@ -1,35 +1,33 @@
-<h1 align="center">Hi 👋, I'm Muhammad Ahmed</h1>
-
-<p align="center">
-  <img src="https://camo.githubusercontent.com/cd878ec5a6b9314e5d2862b8f5f6e934ef657572f93e650c569aa3499937eebd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4650626e53687131683149533546517950442f67697068792e676966" alt="GIF" width="400"/>
-</p>
-
-<h2 align="center">
-  <span>
-    <p align="center">
-      <span id="animated-text"></span>
-    </p>
-  </span>
-</h2>
-
-<p align="center">I'm a passionate backend developer from Pakistan.</p>
+# Hi 👋, I'm Ahmed  
+**Basic Backend Developer**
 
 ---
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### **About Me**
-<p align="center">
-  🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
-  🌱 I’m currently learning **Vue.js and Shopify API integrations**  
-  👯 I’m looking to collaborate on **Open-Source Laravel projects**  
-  💬 Ask me about **Laravel, RESTful APIs, and Backend Development**  
-  📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
-  ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
-</p>
+- 🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
+- 🌱 I’m currently learning **Vue.js and Shopify API integrations**  
+- 👯 I’m looking to collaborate on **Open-Source Laravel projects**  
+- 💬 Ask me about **Laravel, RESTful APIs, and Backend Development**  
+- 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
+- ⚡ Fun fact: I love exploring new technologies and connecting with like-minded people  
+
+</td>
+<td width="50%" valign="top" align="center">
+
+![GIF](https://camo.githubusercontent.com/cd878ec5a6b9314e5d2862b8f5f6e934ef657572f93e650c569aa3499937eebd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4650626e53687131683149533546517950442f67697068792e676966)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### **Languages and Tools**
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" alt="Laravel"/>
   <img src="https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white" alt="WordPress"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
@@ -42,8 +40,16 @@
 
 ---
 
-### **Connect with Me**
+### **GitHub Stats**
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mahmed1011&show_icons=true&theme=radical" alt="Ahmed's GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahmed1011&layout=compact&theme=radical" alt="Top Languages"/>
+</p>
+
+---
+
+### **Connect with Me**
+<p align="left">
   <a href="https://www.linkedin.com/in/mahmed1011/?originalSubdomain=pk" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -68,49 +74,3 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmed1011&theme=radical" alt="GitHub Streak"/>
   <img src="https://activity-graph.herokuapp.com/graph?username=mahmed1011&theme=radical" alt="GitHub Activity Graph"/>
 </p>
-
----
-
-<script>
-const texts = [
-  "I'm a Web Designer.",
-  "I'm a Laravel Developer.",
-  "I'm a WordPress Developer.",
-  "I'm a Shopify Developer.",
-  "I'm a Freelancer."
-];
-let index = 0;
-const textElement = document.getElementById("animated-text");
-
-function typeWriter() {
-  let text = texts[index];
-  let typeIndex = 0;
-
-  const typing = setInterval(() => {
-    if (typeIndex < text.length) {
-      textElement.innerHTML += text[typeIndex];
-      typeIndex++;
-    } else {
-      clearInterval(typing);
-      setTimeout(() => deleteText(text), 1500);
-    }
-  }, 100);
-}
-
-function deleteText(text) {
-  let deleteIndex = text.length;
-
-  const deleting = setInterval(() => {
-    if (deleteIndex > 0) {
-      textElement.innerHTML = text.substring(0, deleteIndex - 1);
-      deleteIndex--;
-    } else {
-      clearInterval(deleting);
-      index = (index + 1) % texts.length;
-      setTimeout(typeWriter, 500);
-    }
-  }, 50);
-}
-
-setTimeout(typeWriter, 1000);
-</script>
