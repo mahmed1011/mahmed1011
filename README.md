@@ -49,6 +49,13 @@
 
 ---
 
+### **GitHub Contributions**
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mahmed1011&theme=radical" alt="GitHub Activity Graph"/>
+</p>
+
+---
+
 ### **Connect with Me**
 <p align="left">
   <a href="https://www.linkedin.com/in/mahmed1011/?originalSubdomain=pk" target="_blank">
@@ -66,12 +73,4 @@
   <a href="https://api.whatsapp.com/send?phone=923136756624" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
   </a>
-</p>
-
----
-
-### **GitHub Contributions**
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mahmed1011&theme=radical" alt="GitHub Streak"/>
-  <img src="https://activity-graph.herokuapp.com/graph?username=mahmed1011&theme=radical" alt="GitHub Activity Graph"/>
 </p>
