@@ -8,8 +8,8 @@
 <td width="50%" valign="top">
 
 ### **About Me**
-- 🔭 I’m currently working on **Laravel, WordPress, and Shopify**  
-- 🌱 I’m currently learning **React.js**  
+- 🔭 I’m currently working on **Laravel, ReactJs, NextJs, WordPress, and Shopify**  
+- 🌱 I’m currently learning **Python, Ai Agents, Ai Automation**  
 - 👯 I’m looking to collaborate on **Open-Source Laravel projects**  
 - 💬 Ask me about **Laravel, WordPress, Shopify, and Backend Development**  
 - 📫 How to reach me: [ahmeddeveloper@gmail.com](mailto:ahmeddeveloper@gmail.com)  
